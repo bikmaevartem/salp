@@ -1,4 +1,4 @@
-﻿namespace Salp.Tests
+﻿namespace Tests.Salp.Math
 {
     [TestClass]
     public sealed class Test1

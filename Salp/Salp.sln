@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salp.Core", "..\src\Salp.Core\Salp.Core.csproj", "{0EFCAC38-6D7B-41DE-AF9F-905CE700B8E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salp.Math", "..\src\Salp.Math\Salp.Math.csproj", "{2E2829F2-71A3-444E-9171-EE7BC8BF3DD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salp.Utils", "..\src\Salp.Utils\Salp.Utils.csproj", "{E25FBD99-7CA4-4F32-A6CB-CF95F1770282}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salp.GPU", "..\src\Salp.GPU\Salp.GPU.csproj", "{635CA7AB-0673-4185-8B13-70891A04E754}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Salp.Core", "..\tests\Tests.Salp.Core\Tests.Salp.Core.csproj", "{335F2F35-7133-4A29-9074-5C5C46DE190A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Salp.Math", "..\tests\Tests.Salp.Math\Tests.Salp.Math.csproj", "{76E1D822-DDB7-4ABF-B476-BCEE9BADC5DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "..\tools\ConsoleClient\ConsoleClient.csproj", "{C3A78903-5981-42CA-B29B-2BF4BF8F1007}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EFCAC38-6D7B-41DE-AF9F-905CE700B8E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFCAC38-6D7B-41DE-AF9F-905CE700B8E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EFCAC38-6D7B-41DE-AF9F-905CE700B8E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EFCAC38-6D7B-41DE-AF9F-905CE700B8E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2829F2-71A3-444E-9171-EE7BC8BF3DD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2829F2-71A3-444E-9171-EE7BC8BF3DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2829F2-71A3-444E-9171-EE7BC8BF3DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2829F2-71A3-444E-9171-EE7BC8BF3DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E25FBD99-7CA4-4F32-A6CB-CF95F1770282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E25FBD99-7CA4-4F32-A6CB-CF95F1770282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E25FBD99-7CA4-4F32-A6CB-CF95F1770282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E25FBD99-7CA4-4F32-A6CB-CF95F1770282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{635CA7AB-0673-4185-8B13-70891A04E754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{635CA7AB-0673-4185-8B13-70891A04E754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{635CA7AB-0673-4185-8B13-70891A04E754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{635CA7AB-0673-4185-8B13-70891A04E754}.Release|Any CPU.Build.0 = Release|Any CPU
+		{335F2F35-7133-4A29-9074-5C5C46DE190A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{335F2F35-7133-4A29-9074-5C5C46DE190A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{335F2F35-7133-4A29-9074-5C5C46DE190A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{335F2F35-7133-4A29-9074-5C5C46DE190A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76E1D822-DDB7-4ABF-B476-BCEE9BADC5DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76E1D822-DDB7-4ABF-B476-BCEE9BADC5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76E1D822-DDB7-4ABF-B476-BCEE9BADC5DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76E1D822-DDB7-4ABF-B476-BCEE9BADC5DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3A78903-5981-42CA-B29B-2BF4BF8F1007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A78903-5981-42CA-B29B-2BF4BF8F1007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A78903-5981-42CA-B29B-2BF4BF8F1007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A78903-5981-42CA-B29B-2BF4BF8F1007}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DC5948B-3CD3-4EE9-8DBB-6300F8E00264}
+	EndGlobalSection
+EndGlobal

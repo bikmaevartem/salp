@@ -3,25 +3,10 @@
   "WorkspaceRootPath": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\Salp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3A78903-5981-42CA-B29B-2BF4BF8F1007}|..\\tools\\ConsoleClient\\ConsoleClient.csproj|d:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\tools\\consoleclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EFCAC38-6D7B-41DE-AF9F-905CE700B8E1}|..\\src\\Salp.Core\\Salp.Core.csproj|d:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\salp.core\\tensors\\itensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76E1D822-DDB7-4ABF-B476-BCEE9BADC5DF}|..\\tests\\Tests.Salp.Math\\Tests.Salp.Math.csproj|d:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\tests\\tests.salp.math\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{335F2F35-7133-4A29-9074-5C5C46DE190A}|..\\tests\\Tests.Salp.Core\\Tests.Salp.Core.csproj|d:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\tests\\tests.salp.core\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{635CA7AB-0673-4185-8B13-70891A04E754}|..\\src\\Salp.GPU\\Salp.GPU.csproj|d:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\salp.gpu\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E25FBD99-7CA4-4F32-A6CB-CF95F1770282}|..\\src\\Salp.Utils\\Salp.Utils.csproj|d:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\salp.utils\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E2829F2-71A3-444E-9171-EE7BC8BF3DD2}|..\\src\\Salp.Math\\Salp.Math.csproj|d:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\salp.math\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EFCAC38-6D7B-41DE-AF9F-905CE700B8E1}|..\\src\\Salp.Core\\Salp.Core.csproj|d:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\salp.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EFCAC38-6D7B-41DE-AF9F-905CE700B8E1}|..\\src\\Salp.Core\\Salp.Core.csproj|d:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\salp.core\\tensors\\tensorbase.math.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,97 +16,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\tools\\ConsoleClient\\Program.cs",
-              "RelativeDocumentMoniker": "..\\tools\\ConsoleClient\\Program.cs",
-              "ToolTip": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\tools\\ConsoleClient\\Program.cs",
-              "RelativeToolTip": "..\\tools\\ConsoleClient\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T18:44:49.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MSTestSettings.cs",
-              "DocumentMoniker": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\tests\\Tests.Salp.Math\\MSTestSettings.cs",
-              "RelativeDocumentMoniker": "..\\tests\\Tests.Salp.Math\\MSTestSettings.cs",
-              "ToolTip": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\tests\\Tests.Salp.Math\\MSTestSettings.cs",
-              "RelativeToolTip": "..\\tests\\Tests.Salp.Math\\MSTestSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "TensorBase.Math.cs",
+              "DocumentMoniker": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Core\\Tensors\\TensorBase.Math.cs",
+              "RelativeDocumentMoniker": "..\\src\\Salp.Core\\Tensors\\TensorBase.Math.cs",
+              "ToolTip": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Core\\Tensors\\TensorBase.Math.cs",
+              "RelativeToolTip": "..\\src\\Salp.Core\\Tensors\\TensorBase.Math.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAwwFoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T18:43:55.596Z",
+              "WhenOpened": "2025-07-21T14:16:44.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MSTestSettings.cs",
-              "DocumentMoniker": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\tests\\Tests.Salp.Core\\MSTestSettings.cs",
-              "RelativeDocumentMoniker": "..\\tests\\Tests.Salp.Core\\MSTestSettings.cs",
-              "ToolTip": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\tests\\Tests.Salp.Core\\MSTestSettings.cs",
-              "RelativeToolTip": "..\\tests\\Tests.Salp.Core\\MSTestSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ITensor.cs",
+              "DocumentMoniker": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Core\\Tensors\\ITensor.cs",
+              "RelativeDocumentMoniker": "..\\src\\Salp.Core\\Tensors\\ITensor.cs",
+              "ToolTip": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Core\\Tensors\\ITensor.cs",
+              "RelativeToolTip": "..\\src\\Salp.Core\\Tensors\\ITensor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T18:43:28.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.GPU\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\src\\Salp.GPU\\Class1.cs",
-              "ToolTip": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.GPU\\Class1.cs",
-              "RelativeToolTip": "..\\src\\Salp.GPU\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T18:42:29.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Utils\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\src\\Salp.Utils\\Class1.cs",
-              "ToolTip": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Utils\\Class1.cs",
-              "RelativeToolTip": "..\\src\\Salp.Utils\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T18:42:10.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Math\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\src\\Salp.Math\\Class1.cs",
-              "ToolTip": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Math\\Class1.cs",
-              "RelativeToolTip": "..\\src\\Salp.Math\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T18:41:50.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Core\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\src\\Salp.Core\\Class1.cs",
-              "ToolTip": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Core\\Class1.cs",
-              "RelativeToolTip": "..\\src\\Salp.Core\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T18:41:30.279Z",
+              "WhenOpened": "2025-07-18T19:32:29.591Z",
               "EditorCaption": ""
             }
           ]

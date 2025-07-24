@@ -6,7 +6,7 @@
 
         T[] HostData { get; }
 
-        int Hostength { get; }
+        int HostLength { get; }
 
         int[] HostStrides { get; }
 

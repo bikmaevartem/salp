@@ -1,78 +1,22 @@
 ﻿using System.Numerics;
-using Salp.Core.Extensions;
+using Salp.Core.Tensors.Memory;
 
 namespace Salp.Core.Tensors
 {
-    public abstract partial class TensorBase<T> : ITensor<T> where T : INumber<T>
+    public abstract class TensorBase<T> : ITensor<T> where T : unmanaged, INumber<T>
     {
-        /// <summary>
-        /// Data.
-        /// </summary>
-        protected readonly T[] _data;
+        public int[] Shape => throw new NotImplementedException();
 
-        /// <summary>
-        /// Shape of the Tensor.
-        /// </summary>
-        protected readonly int[] _shape;
+        public T[] Data => throw new NotImplementedException();
 
-        /// <summary>
-        /// Need for correct access by index to elements in the Data.
-        /// </summary>
-        protected readonly int[] _strides;
+        public int Length => throw new NotImplementedException();
 
-        /// <summary>
-        /// Creating new Tensor.
-        /// </summary>
-        /// <param name="shape">Shape of a new Tensor.</param>
-        public TensorBase(int[] shape)
-        {
-            _data = new T[shape.Product()];
-            _shape = shape;
-            _strides = ComputeStrides(_shape);
-        }
+        public int[] Strides => throw new NotImplementedException();
 
-        /// <summary>
-        /// Creating new Tensor.
-        /// </summary>
-        /// <param name="shape">Shape of a new Tensor.</param>
-        /// <param name="data">Data of a new Tensor.</param>
-        public TensorBase(int[] shape, T[] data)
-        {
-            AssertShapeMatchesDataLength(shape, data);
-
-
-            _data = data;
-            _shape = shape;
-            _strides = ComputeStrides(_shape);
-        }
-
-        /// <summary>
-        /// Get full copy of shape.
-        /// </summary>
-        /// <returns>Shape of tensor.</returns>
-        public int[] CopyShape() => (int[])_shape.Clone();
-
-        /// <summary>
-        /// Get full copy of data.
-        /// </summary>
-        /// <returns>Data of tensor.</returns>
-        public T[] CopyData() => (T[])_data.Clone();
-
-        /// <summary>
-        /// Creates a deep copy of the tensor, including shape and data.
-        /// </summary>
-        /// <returns>ITensor<T></returns>
-        public virtual ITensor<T> Clone()
-        {
-            return CreateTensor(CopyShape(), CopyData());
-        }
-
-        protected abstract ITensor<T> CreateTensor(int[] shape, T[] data);
+        public ITensorMemory<T> Memory => throw new NotImplementedException();
 
         private int[] ComputeStrides(int[] shape)
         {
-            AssertShapeIsValid(shape);
-
             int dimensions = shape.Length;
             int[] strides = new int[dimensions];
 

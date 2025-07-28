@@ -14,5 +14,7 @@ namespace Salp.Core.Tensors
         int[] Strides { get; }
 
         ITensorMemory<T> Memory { get; }
+
+        ITensor<T> Clone();
     }
 }

@@ -1,28 +1,32 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Numerics;
+using Salp.Core.Extensions;
 
 namespace Salp.Core.Tensors.Memory
 {
-    public abstract class TensorMemoryBase<T> : ITensorMemory<T>
+    public abstract class TensorMemoryBase<T> : ITensorMemory<T> where T : unmanaged, INumber<T>
     {
-        protected int[] _hostShape;
+        #region Factory
 
-        protected T[] _hostData;
+        public static ITensorMemory<T> Create(int[] shape)
+        {
+            throw new NotImplementedException();
+        }
 
-        protected int _hostLength;
+        #endregion
 
-        protected int[] _hostStrides;
+        #region Host
 
-        public virtual int[] HostShape => _hostShape;
+        public virtual int[] HostShape => throw new NotImplementedException();
 
-        public virtual T[] HostData => _hostData;
+        public virtual T[] HostData => throw new NotImplementedException();
 
-        public virtual int HostLength => _hostLength;
+        public virtual int HostLength => throw new NotImplementedException();
 
-        public virtual int[] HostStrides => _hostStrides;
+        public virtual int[] HostStrides => throw new NotImplementedException();
+
+        #endregion
+
+        #region Device
 
         public virtual nint DeviceShape => throw new NotImplementedException();
 
@@ -32,7 +36,14 @@ namespace Salp.Core.Tensors.Memory
 
         public virtual nint DeviceStrides => throw new NotImplementedException();
 
-        private int[] ComputeStrides(int[] shape)
+        #endregion
+
+        public virtual ITensorMemory<T> Clone()
+        {
+            throw new NotImplementedException();
+        }
+
+        protected int[] ComputeStrides(int[] shape)
         {
             int dimensions = shape.Length;
             int[] strides = new int[dimensions];
@@ -48,5 +59,9 @@ namespace Salp.Core.Tensors.Memory
             return strides;
         }
 
+        protected int ComputeLength(int[] shape)
+        {
+            return shape.Product();
+        }
     }
 }

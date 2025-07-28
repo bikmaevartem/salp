@@ -3,16 +3,22 @@
   "WorkspaceRootPath": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\Salp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0EFCAC38-6D7B-41DE-AF9F-905CE700B8E1}|..\\src\\Salp.Core\\Salp.Core.csproj|d:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\salp.core\\tensors\\tensorbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EFCAC38-6D7B-41DE-AF9F-905CE700B8E1}|..\\src\\Salp.Core\\Salp.Core.csproj|d:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\salp.core\\devices\\idevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EFCAC38-6D7B-41DE-AF9F-905CE700B8E1}|..\\src\\Salp.Core\\Salp.Core.csproj|d:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\salp.core\\tensors\\itensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EFCAC38-6D7B-41DE-AF9F-905CE700B8E1}|..\\src\\Salp.Core\\Salp.Core.csproj|d:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\salp.core\\devices\\idevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EFCAC38-6D7B-41DE-AF9F-905CE700B8E1}|..\\src\\Salp.Core\\Salp.Core.csproj|d:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\salp.core\\tensors\\memory\\itensormemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EFCAC38-6D7B-41DE-AF9F-905CE700B8E1}|..\\src\\Salp.Core\\Salp.Core.csproj|d:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\salp.core\\tensors\\memory\\itensormemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EFCAC38-6D7B-41DE-AF9F-905CE700B8E1}|..\\src\\Salp.Core\\Salp.Core.csproj|d:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\salp.core\\devices\\devicecpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EFCAC38-6D7B-41DE-AF9F-905CE700B8E1}|..\\src\\Salp.Core\\Salp.Core.csproj|d:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\salp.core\\tensors\\memory\\tensormemorycpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EFCAC38-6D7B-41DE-AF9F-905CE700B8E1}|..\\src\\Salp.Core\\Salp.Core.csproj|d:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\salp.core\\tensors\\tensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EFCAC38-6D7B-41DE-AF9F-905CE700B8E1}|..\\src\\Salp.Core\\Salp.Core.csproj|d:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\salp.core\\extensions\\arrayextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -25,17 +31,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ITensorMemory.cs",
+              "DocumentMoniker": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Core\\Tensors\\Memory\\ITensorMemory.cs",
+              "RelativeDocumentMoniker": "..\\src\\Salp.Core\\Tensors\\Memory\\ITensorMemory.cs",
+              "ToolTip": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Core\\Tensors\\Memory\\ITensorMemory.cs",
+              "RelativeToolTip": "..\\src\\Salp.Core\\Tensors\\Memory\\ITensorMemory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T16:35:26.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TensorMemoryCpu.cs",
+              "DocumentMoniker": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Core\\Tensors\\Memory\\TensorMemoryCpu.cs",
+              "RelativeDocumentMoniker": "..\\src\\Salp.Core\\Tensors\\Memory\\TensorMemoryCpu.cs",
+              "ToolTip": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Core\\Tensors\\Memory\\TensorMemoryCpu.cs",
+              "RelativeToolTip": "..\\src\\Salp.Core\\Tensors\\Memory\\TensorMemoryCpu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T16:34:24.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "IDevice.cs",
               "DocumentMoniker": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Core\\Devices\\IDevice.cs",
               "RelativeDocumentMoniker": "..\\src\\Salp.Core\\Devices\\IDevice.cs",
               "ToolTip": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Core\\Devices\\IDevice.cs",
               "RelativeToolTip": "..\\src\\Salp.Core\\Devices\\IDevice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAM0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-24T13:25:59.736Z",
               "EditorCaption": ""
@@ -43,14 +75,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ITensorMemory.cs",
-              "DocumentMoniker": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Core\\Tensors\\Memory\\ITensorMemory.cs",
-              "RelativeDocumentMoniker": "..\\src\\Salp.Core\\Tensors\\Memory\\ITensorMemory.cs",
-              "ToolTip": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Core\\Tensors\\Memory\\ITensorMemory.cs",
-              "RelativeToolTip": "..\\src\\Salp.Core\\Tensors\\Memory\\ITensorMemory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Title": "DeviceCPU.cs",
+              "DocumentMoniker": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Core\\Devices\\DeviceCPU.cs",
+              "RelativeDocumentMoniker": "..\\src\\Salp.Core\\Devices\\DeviceCPU.cs",
+              "ToolTip": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Core\\Devices\\DeviceCPU.cs",
+              "RelativeToolTip": "..\\src\\Salp.Core\\Devices\\DeviceCPU.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4BAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T12:49:24.15Z",
+              "WhenOpened": "2025-07-24T15:43:29.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Tensor.cs",
+              "DocumentMoniker": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Core\\Tensors\\Tensor.cs",
+              "RelativeDocumentMoniker": "..\\src\\Salp.Core\\Tensors\\Tensor.cs",
+              "ToolTip": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Core\\Tensors\\Tensor.cs",
+              "RelativeToolTip": "..\\src\\Salp.Core\\Tensors\\Tensor.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T15:37:53.43Z",
               "EditorCaption": ""
             },
             {
@@ -61,40 +106,23 @@
               "RelativeDocumentMoniker": "..\\src\\Salp.Core\\Tensors\\ITensor.cs",
               "ToolTip": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Core\\Tensors\\ITensor.cs",
               "RelativeToolTip": "..\\src\\Salp.Core\\Tensors\\ITensor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T09:35:07.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TensorBase.cs",
-              "DocumentMoniker": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Core\\Tensors\\TensorBase.cs",
-              "RelativeDocumentMoniker": "..\\src\\Salp.Core\\Tensors\\TensorBase.cs",
-              "ToolTip": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Core\\Tensors\\TensorBase.cs",
-              "RelativeToolTip": "..\\src\\Salp.Core\\Tensors\\TensorBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T14:17:26.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ArrayExtensions.cs",
               "DocumentMoniker": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Core\\Extensions\\ArrayExtensions.cs",
               "RelativeDocumentMoniker": "..\\src\\Salp.Core\\Extensions\\ArrayExtensions.cs",
               "ToolTip": "D:\\90 \u0434\u043D\u0435\u0439\\salp\\salp\\src\\Salp.Core\\Extensions\\ArrayExtensions.cs",
               "RelativeToolTip": "..\\src\\Salp.Core\\Extensions\\ArrayExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAB0AAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T14:45:00.058Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         }

@@ -36,8 +36,19 @@ namespace Salp.Core.Extensions
             return result;
         }
 
+        public static T Sum<T>(this T[] array) where T : INumber<T>
+        {
+            T result = T.Zero;
 
-        #region Copy
+            foreach (var item in array)
+            {
+                result += item;
+            }
+
+            return result;
+        }
+
+        #region Clone
 
         private const long UnsafeByteThreshold = 4096; // 4 KB
 
@@ -51,7 +62,7 @@ namespace Salp.Core.Extensions
         /// Modifications to the returned array will not affect the original array.
         /// </returns>
         /// <exception cref="ArgumentNullException">Thrown if the source array is null.</exception>
-        public static unsafe T[] Copy<T>(this T[] array) where T: unmanaged
+        public static unsafe T[] CloneExact<T>(this T[] array) where T: unmanaged, INumber<T>
         {
             if (array == null)
                 throw new ArgumentNullException(nameof(array));

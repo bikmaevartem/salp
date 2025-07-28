@@ -1,7 +1,17 @@
-﻿namespace Salp.Core.Tensors.Memory
+﻿using System.Numerics;
+
+namespace Salp.Core.Tensors.Memory
 {
-    public interface ITensorMemory<T>
+    public interface ITensorMemory<T> where T : unmanaged, INumber<T>
     {
+        #region Factory
+
+        static abstract ITensorMemory<T> Create(int[] shape);
+
+        #endregion
+
+        #region Host
+
         int[] HostShape { get; }
 
         T[] HostData { get; }
@@ -10,6 +20,9 @@
 
         int[] HostStrides { get; }
 
+        #endregion
+
+        #region Device
 
         nint DeviceShape { get; }
 
@@ -18,5 +31,9 @@
         nint DeviceLength { get; }
 
         nint DeviceStrides { get; }
+
+        #endregion
+
+        ITensorMemory<T> Clone();
     }
 }

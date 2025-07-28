@@ -5,9 +5,14 @@ namespace Salp.Core.Tensors
 {
     public class Tensor<T> : ITensor<T> where T : unmanaged, INumber<T>
     {
+        public static ITensor<T> CreateTensor(ITensorMemory<T> memory)
+        {
+            return new Tensor<T>(memory);
+        }
+
         private readonly ITensorMemory<T> _memory;
 
-        public Tensor(ITensorMemory<T> memory)
+        private Tensor(ITensorMemory<T> memory)
         {
             _memory = memory;
         }
@@ -21,5 +26,11 @@ namespace Salp.Core.Tensors
         public int[] Strides => Memory.HostStrides;
 
         public ITensorMemory<T> Memory => _memory;
+
+        public ITensor<T> Clone()
+        {
+            ITensor<T> t = Tensor<T>.CreateTensor(memory: _memory.Clone());
+            return t;
+        }
     }
 }
